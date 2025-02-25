@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>
+            Saish Learning Center
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/9ec75c7fc0.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="logo.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>   
+                        <li><a href="#contact">Contact</a></li>  
+                        <i class="fas fa-times" onclick="closemenu()"></i>  
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Entrepreneur</p>
+                    <h1>Hi, I'm <span>Sasi Preetha</span></h1>
+                </div>
+            </div>
+        </div>
+    <!-----about-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> About Me</h1>
+                <p>Diligent and organized professional offering a well round 
+                    experience of 15 years. Flexible, charismatic and energetic leader 
+                    who had managed complex project end-to-end to deliver business 
+                    outcomes and ensuring that the project is completed on time, 
+                    within budget and to a high level of client satisfaction. Training 
+                    professionals with extensive leadership experience in staff 
+                    development, process and productivity improvements and 
+                    performance management</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="show('skills')">Skills</p>
+                        <p class="tab-links" onclick="show('exper')">Experience</p>
+                        <p class="tab-links" onclick="show('edu')">Educations</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Thunkable App Development</span><br>Building Andriod Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="exper">
+                        <ul>
+                            <li><span>2020 - 2024</span><br>App Developer at Whitehat.Jr</li>
+                            <li><span>2012 - 2015</span><br>Sr.Team Leader at Maersk</li>
+                            <li><span>2011 - 2012</span><br>Team Leader at Caliber Point</li>
+                            <li><span>2007-2010 </span><br>Team Leader at Intelenet Global Services</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="edu">
+                        <ul>
+                            <li><span>2003 Pass Out</span><br>MS.IT with Ecom from Madurai Kamaraj University</li>
+                            <li><span>2001 Pass Out</span><br>BCA - MTW University</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----services------->
+<div id="services">
+    <div class="container">
+        <h1 class=""sub-title>My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-uikit"></i>
+                
+                <h2>Web Design</h2>
+                <p> LOve to do web design</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-web-awesome"></i>
+                <h2>Web Development</h2>
+                <p> LOve to do web design</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Thunkable App Development</h2>
+                <p> LOve to do web design</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----Portfolio------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class=""sub-title>My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="w1.png">
+                <div class="layer">
+                    <h3>Booktify App</h3>
+                    <p>The app will let you to write own quotes and see popoular quotes from leaders. 
+                        Download it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="w2.png">
+                <div class="layer">
+                <h3>Deepblu Scuba</h3>
+                    <p>The app will let you to know about the marine life and also can use the Scuba Weight Calculator . 
+                        Download it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+            </div>
+            <div class="work">
+                <img src="w3.png">
+                <div class="layer">
+                <h3>Plantopedia</h3>
+                    <p>The app will let you to know more different types of plants. 
+                        Download it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+            </div>
+        </div>
+
+          <a class="btn" href="#">See More</a>
+
+    </div>
+</div>
+<!----contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <a href="Sasi Preetha -.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" placeholder="Your Name" name="Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Sasi</p>
+    </div>
+</div>
+
+<script src="main.js"></script>
+    </body>
+</html>
