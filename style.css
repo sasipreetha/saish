@@ -317,7 +317,16 @@ nav .fas{
     margin-top: -40px;
     display: block;
 }
+/*--splinebackground----*/
+.background{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    transform: scale(1.2);
 
+}
 /*-------css for small screens -----*/
 @media only screen and (max-width:600px){
  #header{
